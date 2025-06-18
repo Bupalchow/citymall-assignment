@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 import { getCurrentUser } from './auth';
-const SOCKET_URL = 'http://localhost:3001';
+const SOCKET_URL = 'https://citymall-assignment-backend.onrender.com';
 
 class SocketService {
   constructor() {
